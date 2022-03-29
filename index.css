@@ -20,4 +20,32 @@ body {
   align-items: center;
   width: 50%;
   padding: 0.4rem 8rem;
+  color: black;
+}
+
+.t-nav-links {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.t-nav-items {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(#0000);
+  margin-right: 4rem;
+}
+
+.trial-1 {
+  display: flex;
+}
+
+.trial-1 .t-nav-links {
+  margin: 6rem;
+}
+
+.t-nav-items > a {
+  color: #000;
 }
