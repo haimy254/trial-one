@@ -11,6 +11,7 @@ html,
 body {
   font-size: 16px;
   color: black;
+  font-family: "popping";
 }
 
 .t-nav-links {
@@ -48,4 +49,51 @@ body {
 
 .t-nav-items > a {
   color: #000;
+  font-size: large;
+}
+
+.t-nav .t-header {
+  display: grid;
+}
+
+.t-header {
+  margin-left: 250px;
+}
+
+.t-header > h4 {
+  font-size: 0.8;
+}
+
+.t-header > .t-text {
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.t-header > h2 {
+  padding-top: 2rem;
+}
+
+.t-buttons {
+  display: flex;
+  padding: 2rem;
+}
+
+.t-sign-in {
+  margin-left: 45px;
+  width: 85px;
+  height: 15vh;
+}
+
+.down {
+  width: 200px;
+  height: 5vh;
+  color: #ffff;
+  background-color: black;
+  border-radius: 0.3rem;
+}
+
+.sign {
+  width: 200px;
+  height: 5vh;
+  border-radius: 0.3rem;
 }
